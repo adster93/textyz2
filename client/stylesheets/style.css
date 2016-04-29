@@ -1,0 +1,99 @@
+.searchInput {
+	height: 60px;
+	width: 1200px;
+	font-size: 32px;
+	margin-top: 32px;
+}
+
+video#bgvid { 
+	object-fit: initial;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    min-width: 100%;
+    height: 550px;
+    // width: auto;
+    // height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-20%);
+    background-size: cover; 
+}
+
+
+// video#bgvid {
+//   object-fit: initial;
+//   margin-top: -
+//   width: 100%;
+//   height: 800px;
+//   z-index: -1000;
+
+
+// }
+
+video#bgvid {
+    transition: 1s opacity;
+}
+.stopfade { opacity: .5; }
+
+
+// @media screen and (max-device-width: 800px) {
+//     html {
+//          background: url(polina.jpg) #000 no-repeat center center fixed;
+//     }
+//     #bgvid {
+//         display: none;
+//     }
+// }
+
+.navColor:hover {
+	background-color: brown;
+}
+
+.searchContainer {
+	text-align: center;
+	margin-top: 80px;
+}
+
+// .buyTextbooks {
+// 	margin-top: -300px;
+// }
+
+.firstContainer {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.saved {
+	margin: auto;
+	height: 100px;
+	width: 50%;
+}
+
+.secondContainer {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.thirdContainer {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.mission {
+	margin: auto;
+	height: 100px;
+	width: 50%;
+}
+
+.fourthContainer {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.fifthContainer {
+	text-align: center;
+	margin-top: 80px;
+}
